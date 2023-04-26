@@ -1,0 +1,87 @@
+body{
+  background-color: black;
+}
+
+ .Container{
+  max-width: 800px;
+  margin: auto;
+  height: 800px;
+  background-color: gray;
+  padding-left: 100px;
+  padding-right: 100px;
+ }
+
+ .nav{
+  display: flex;
+  justify-content: space-between;
+ }
+ .nav-links{
+  margin-top: 20px;
+ }
+.dropdown{
+  border: none;
+  margin-right: 10px;
+  background-color: gray;
+}
+
+span{
+  color: yellow;
+}
+a{
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+}
+.start-btn{
+  border-radius: 20px;
+  background-color: black;
+  color: yellow;
+  height : 30px;
+ border: none;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text{
+  width: 50%;
+}
+
+.hero-img{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+.img-btn{
+  position: absolute;
+  
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.Card{
+  display: flex;
+}
+
+ .Card-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-img{
+  margin-top: 10px;
+}
+
+hr{
+  margin-top: 70px;
+  background-color: red;
+}
+.dev{
+  display: flex;
+  justify-content: center;
+}
